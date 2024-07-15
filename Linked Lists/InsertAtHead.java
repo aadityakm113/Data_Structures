@@ -47,7 +47,7 @@ public class InsertAtHead {
             int val = sc.nextInt();
             if(val<0)
                 break;
-            ll.insert(val);
+            ll.insertAtHead(val);
         }
         ll.display();
         sc.close();
