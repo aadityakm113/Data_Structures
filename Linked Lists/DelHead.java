@@ -11,7 +11,7 @@ public class DelHead{
     }
     ll.delAtHead();
     ll.display();
-    sc.close();;
+    sc.close();
   }
 }
 class LinkedList{
