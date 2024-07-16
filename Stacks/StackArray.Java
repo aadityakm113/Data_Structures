@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class StackArray{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int[] arr = new int[1000];
+        int n = sc.nextInt();
+        for(int i =0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        int m = sc.nextInt();
+        for(int i=0;i<m;i++){
+            arr[i]=sc.nextInt();
+        }
+        int del1=sc.nextInt();
+        int del2=sc.nextInt();
+    }
+}
