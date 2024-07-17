@@ -8,10 +8,17 @@ public class StackArray{
             arr[i]=sc.nextInt();
         }
         int m = sc.nextInt();
-        for(int i=0;i<m;i++){
+        for(int i=n;i<n+m;i++){
             arr[i]=sc.nextInt();
         }
         int del1=sc.nextInt();
         int del2=sc.nextInt();
+
+        System.out.println("Stack 1 Elements:");
+        for (int i=n-1;i>=0;i--){
+            System.out.println(arr[i]+" ")
+        }
+        
+
     }
 }
