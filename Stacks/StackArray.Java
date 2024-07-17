@@ -1,3 +1,4 @@
+package Stacks;
 import java.util.Scanner;
 public class StackArray{
     public static void main(String args[]){
@@ -16,9 +17,10 @@ public class StackArray{
 
         System.out.println("Stack 1 Elements:");
         for (int i=n-1;i>=0;i--){
-            System.out.println(arr[i]+" ")
+            System.out.println(arr[i]+" ");
         }
-        
 
+
+        sc.close();
     }
 }
