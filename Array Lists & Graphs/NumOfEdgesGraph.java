@@ -8,6 +8,6 @@ class NumOfEdgesGraph
     int n = sc.nextInt();
     int total = (n*(n-1))/2;
     System.out.println(total);
-    
+    sc.close(); 
   }
 }

@@ -42,7 +42,7 @@ class BtIsBST {
       else{
         System.out.print("False");
       }
-      sc.close();
+      sc.close();   
   }
   public static boolean Evaluate(Node curr, int m, int M){
     if(curr==null)return true;
