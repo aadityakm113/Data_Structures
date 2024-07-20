@@ -26,7 +26,6 @@ public class BFSGraph {
       int v = sc.nextInt();
       if(v==0){
         System.out.print("Graph doesn't exist");
-        return;
       }
       ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
       for(int i=0;i<v;i++){

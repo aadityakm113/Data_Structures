@@ -34,6 +34,7 @@ public class BuyTicket {
         }
       }
       System.out.println(time);
+      sc.close();
     } 
 }
 class Pair{

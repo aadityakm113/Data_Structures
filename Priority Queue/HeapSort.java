@@ -12,7 +12,7 @@ public class HeapSort {
     while(!pq.isEmpty()){
       System.out.print(pq.poll()+" ");
     }
-    
+    sc.close(); 
 
    } 
 }

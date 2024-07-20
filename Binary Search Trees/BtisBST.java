@@ -12,7 +12,6 @@ class BtIsBST {
       int n = sc.nextInt();
       if(n==0){
         System.out.print("True");
-        return;
       }
       Queue<Node> q = new LinkedList<Node>();
       Node root = new Node(sc.nextInt());
@@ -31,6 +30,7 @@ class BtIsBST {
           q.add(curr.right);
           i++;
         }
+        sc.close();
       }
       inorder(root);
       //System.out.println("Hello, World!");
@@ -42,7 +42,6 @@ class BtIsBST {
       else{
         System.out.print("False");
       }
-      sc.close();   
   }
   public static boolean Evaluate(Node curr, int m, int M){
     if(curr==null)return true;
