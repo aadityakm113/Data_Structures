@@ -28,6 +28,7 @@ class Node implements Comparable<Node>{
         first=f;
         second=s;
     }
+    // @Override not required in java
     public int compareTo(Node other){
         return Integer.compare(this.first,other.first);
     }
