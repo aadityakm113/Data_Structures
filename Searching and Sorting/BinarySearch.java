@@ -25,5 +25,6 @@ public class BinarySearch {
       System.out.println(key+" is present at location "+indx);
       else
       System.out.print("Not found");
+      sc.close();
   }
 }
