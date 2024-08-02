@@ -1,3 +1,5 @@
+// Longest palindromical subsequence
+//Reverse string and find LCS
 import java.util.*;
 class Main
 {
